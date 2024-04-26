@@ -38,3 +38,5 @@ alias spotify="pactl load-module module-jack-sink sink_name=spotify_sink client_
 alias music="pactl load-module module-jack-source client_name=Music source_name=music_source connect=0 channels=2"
 alias main_output="pactl load-module module-jack-sink sink_name=main_sink client_name=main channels=2"
 alias main_mic="pactl load-module module-jack-source client_name=main_mic source_name=mic_source connect=0 channels=2" 
+# Dev
+alias dev="cd /mnt/Dev"
