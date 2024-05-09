@@ -40,3 +40,8 @@ alias main_output="pactl load-module module-jack-sink sink_name=main_sink client
 alias main_mic="pactl load-module module-jack-source client_name=main_mic source_name=mic_source connect=0 channels=2" 
 # Dev
 alias dev="cd /mnt/Dev"
+
+bindkey "^[[3~" delete-char
+bindkey "^[[5~" history-beginning-search-backward
+bindkey "^[[6~" history-beginning-search-forward
+
