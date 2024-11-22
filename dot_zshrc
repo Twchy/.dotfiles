@@ -42,6 +42,7 @@ alias main_mic="pactl load-module module-jack-source client_name=main_mic source
 alias dev="cd /mnt/Dev"
 # Apps
 alias spotify="spotify --disable-gpu & disown"
+alias steamp="steam --compat-force-slr off & disown"
 alias zen="~/.local/share/AppImage/ZenBrowser.AppImage & disown"
 # Other
 bindkey "^[[3~" delete-char
